@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+           
+            background-color: grey;
+        }
+
+        #box {
+            background-color: blue;
+            padding: 10px;
+            border: 5px solid black;
+            width: 300px;
+            height: 50px;
+            margin-top: 50px;
+            overflow: auto;
+        }
+
+        #content {
+            background-color: #90EE90;
+        }
+
+        h1 {
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officia officiis a nisi! Repellat magni sapiente sunt maxime officia delectus nulla, fugit exercitationem harum quaerat architecto assumenda quos, nostrum non!</div>
+    </div>
+</body>
+</html>

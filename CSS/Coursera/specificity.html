@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance in CSS</title>
+    <style>
+
+        /* style | ID | class,pseudo-class,attribute | no of elements */
+
+        header.navigation p {
+            color: blue;
+        }
+        /* priority will be this after important */
+        p.blurb {
+            color: red;
+        }
+        /* last priority (only one element) */
+        p {
+            color: green !important;
+        }
+        /* because of important it will be green */
+    </style>
+</head>
+<body>
+    <header class="navigation">
+        <p class="blurb">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nulla dolorem adipisci tempora dolor amet et repellendus quasi, assumenda unde. ipsum dolor sit amet consectetur adipisicing elit. Debitis at ab sequi in, recusandae aliquid veritatis? Reprehenderit fuga, autem est consequuntur sapiente doloremque eum nesciunt at. Iste quaerat explicabo nobis!</p>
+    </header>
+</body>
+</html>

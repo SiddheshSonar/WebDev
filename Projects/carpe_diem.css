@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#cc0f58, #cc0f93);
+    font-family: 'Lora', serif;
+}
+
+
+.logo {
+    /* background: url("../Projects/Carpe Diem img.png"); */
+    /* background-image: url("https://heylink.me/cdn-cgi/image/f=auto,q=85,fit=crop,w=200/https://cdn-b.heylink.me/media/users/avatars/3acc527….jpeg"); */
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    left: 42.5%;
+    top: 6%;
+}
+
+h2 {
+    position: absolute;
+    left: 34%;
+    top: 23%;
+    color: #f6cdea;
+}
+
+#brochure, #reel, #impersonator, #love, #clue{
+    /* float: left;
+    width: 100%; */
+    top: 50%;
+    position: absolute;
+    background-color: aliceblue;
+    margin: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: #532345;
+
+}
+
